@@ -1,1 +1,0 @@
--- Procedure para processar venda na aula 2
