@@ -12,7 +12,7 @@ O exercício tem como objetivo aplicar os conceitos fundamentais da orientação
 - **Herança**
 - **Polimorfismo**
 - **Associação entre classes**
-- Identificação de entidades e suas responsabilidades
+- **Identificação de entidades e suas responsabilidades**
 
 ## Estrutura do modelo
 
