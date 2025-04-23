@@ -1,29 +1,35 @@
-# Modelo Orientado a Objetos – Exercício Conceitual
+# Trabalho Final – Banco de Dados 2
 
-Este trabalho foi desenvolvido como parte da disciplina de **Programação Orientada a Objetos**, no curso de **Engenharia da Computação** pela Uniube.
+Este projeto foi desenvolvido como **trabalho final da disciplina de Banco de Dados 2**, no curso de Engenharia da Computação – Uniube.
 
-## Objetivo
+O sistema simula o banco de dados de uma loja de artigos de pesca chamada **Pescador Experiente**, abrangendo modelagem, inserção de dados, consultas e rotinas avançadas em SQL Server.
 
-O exercício tem como objetivo aplicar os conceitos fundamentais da orientação a objetos através da construção de um **modelo conceitual**, utilizando diagrama de classes e a definição de atributos, métodos e relacionamentos entre objetos.
+## Estrutura do Banco
 
-## Conteúdos aplicados
+- **Produtos**: catálogo com 30 produtos e atributos como nome, descrição, preço e estoque.
+- **Funcionários**: equipe da loja com dados como nome, cargo, salário e data de admissão.
+- **Fornecedores**: lista com dados de contato e vínculo com produtos fornecidos.
+- **Clientes**: informações básicas dos clientes.
+- **Pedidos e Detalhes do Pedido**: relacionamento cliente-produto com controle de itens, quantidades e preços.
+- **Pagamentos**: registros de transações por método e valor.
+- **Feedbacks e Comentários**: opiniões de clientes e avaliações internas dos funcionários.
 
-- **Encapsulamento**
-- **Herança**
-- **Polimorfismo**
-- **Associação entre classes**
-- **Identificação de entidades e suas responsabilidades**
+## Funcionalidades Implementadas
 
-## Estrutura do modelo
+- **Função `VerificarQuantidadeEmEstoque`**: retorna status de estoque do produto.
+- **Trigger `AtualizarEstoque`**: atualiza automaticamente o estoque após inserção no pedido.
+- **Procedure `EstoquePequeno`**: imprime se um produto está disponível ou não.
+- **Laços com `WHILE`** para varreduras e impressões de pedidos e comentários.
+- **Consulta com `CASE`** para classificar pedidos como pequeno, médio ou grande.
+- **Criação de índice em cliente-pedido para otimizar buscas.**
 
-O modelo apresenta:
-- Entidades com seus respectivos atributos e métodos
-- Relacionamentos entre classes
-- Análise das interações entre os objetos do sistema
+## Observações
 
-> Este exercício não inclui implementação em código, sendo voltado exclusivamente à fase de modelagem conceitual.
+O projeto utiliza comandos **DDL, DML, DCL e rotinas programadas em T-SQL**, refletindo um sistema de comércio completo com manipulação de dados realista.
 
-## Autor
+---
 
-José Cleber Alves da Cruz Mendes  
-Curso: Engenharia da Computação – Uniube
+**Arquivo principal:** `trabalho-final-bd2.sql`
+
+**Autor:** José Cleber Alves da Cruz Mendes  
+**Curso:** Engenharia da Computação – Uniube
