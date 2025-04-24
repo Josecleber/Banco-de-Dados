@@ -1,6 +1,3 @@
--- Lista - SQL Server
--- Autor: José Cleber Alves da Cruz Mendes
-
 -- 1. Função para prefixar número com 055
 CREATE FUNCTION prefixo (@numero INT)
 RETURNS VARCHAR(15)
