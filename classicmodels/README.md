@@ -39,5 +39,7 @@ Esse exercício visa fortalecer os conhecimentos em:
 ---
 
 **Arquivo principal:** `classicmodels.sql`  
+
+
 **Autor:** José Cleber Alves da Cruz Mendes  
 **Curso:** Engenharia da Computação – Uniube
